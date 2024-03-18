@@ -1,0 +1,26 @@
+{
+  "name": "queue-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cds run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/cds": "^7.7.2",
+    "@sap/cds-dk": "^7.7.2",
+    "@sap/cds-mtxs": "^1.16.0"
+  },
+  "cds": {
+    "requires": {
+      "db": "sql",
+      "multitenancy": true
+    }
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1.5.1"
+  }
+}
